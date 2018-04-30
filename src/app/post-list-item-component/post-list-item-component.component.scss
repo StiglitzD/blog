@@ -1,0 +1,17 @@
+#titre {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+p {
+    text-align: justify;
+}
+
+#date {
+    color: darkgrey;
+    font-size: 1.4em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
