@@ -9,7 +9,7 @@ export class PostListItemComponentComponent implements OnInit {
     @Input() Title;
     @Input() Content:string;
     @Input() Created_at: Date;
-    @Input() Likes: var;
+    @Input() Likes: number;
 
     constructor() { }
 
